@@ -1,3 +1,5 @@
+/*Desenvolvido por Igor Pinheiro de Paula Alvarenga*/
+
 /* Configurações Gerais*/
 .container-fluid { margin: 0 !important; }
 
@@ -114,7 +116,7 @@ h1,h2, h4,.fab{
 
 #dados, #dados2, #dados3, #dados4{
     text-align: justify;
-    padding-top: 12px;
+    padding-right: 4%;
 }
 
 #film1, #film2, #film3, #film4{
@@ -131,12 +133,14 @@ h1,h2, h4,.fab{
 .image{   
     filter: gray;
     -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     padding-bottom: 10px;
 }
 
 .image:hover{
     filter: gray;
     -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
     transition: 1s;
     cursor: pointer;
 }
@@ -226,30 +230,7 @@ h1,h2, h4,.fab{
 .maisEnt{
     text-align: right;
 }
-
-/*Footer*/
-.footer{
-    background-image: linear-gradient(rgb(157, 161, 157),rgb(27, 34, 119));
-    color: white;
-}
-.footer_area{
-    padding: 10px;
-    text-align: center;
-}
-
-.footer p{
-    margin-top: 18px;
-}
-
-.footer p:hover{
-    color: rgb(9,13,59);
-    cursor: default;
-}
-
-.final{
-    margin: 20px 100px 0 100px;
-    width: 100%;
-}
+/* Novidades, Editorial e Sobre*/
 
 .Novidades{
     padding: 0px;
@@ -284,6 +265,30 @@ h1,h2, h4,.fab{
    text-decoration: none;
 }
 
+/*Footer*/
+.footer{
+    background-image: linear-gradient(#ddd,rgb(27, 34, 119));
+    color: white;
+}
+
+.footer_area{
+    padding: 10px;
+    text-align: center;
+}
+
+.footer p{
+    margin-top: 18px;
+}
+
+.footer p:hover{
+    color: rgb(9,13,59);
+    cursor: default;
+}
+
+.final{
+    margin: 20px 100px 0 100px;
+    width: 100%;
+}
 
 /* Menu Mobile */
 @media screen and (max-width: 990px) {
@@ -297,6 +302,11 @@ h1,h2, h4,.fab{
     .destaque_area, .entrevista_area, .avaliação_area, .entrevista_area{
         margin: 20px 20px 30px 20px;
     }
+    
+    .maisAv{
+        margin-top: 10px;
+    }
+
     .final{
         margin: 20px 20px 0 20px !important;
     }
@@ -458,4 +468,10 @@ h1,h2, h4,.fab{
         height: 100%;
         padding-bottom: 10px;
     }
+}
+
+@media screen and (min-width: 1085px){
+   .carousel-inner{
+       padding-top: 20px;
+   }
 }
