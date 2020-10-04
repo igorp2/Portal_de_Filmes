@@ -296,13 +296,15 @@ h1,h2, h4,.fab{
         width: 100px;
         padding-top: 3px;
     }
+
     #sobre{
         margin-top: 15px;
     }
+
     .destaque_area, .entrevista_area, .avaliação_area, .entrevista_area{
         margin: 20px 20px 30px 20px;
-    }
-    
+    } 
+
     .maisAv{
         margin-top: 10px;
     }
@@ -310,28 +312,36 @@ h1,h2, h4,.fab{
     .final{
         margin: 20px 20px 0 20px !important;
     }
+
     .Sobre{
         padding-left: 0px !important;
     }
+
     .carousel-inner{
         height: 100%;
         padding-bottom: 40px;
     }
+
     #dados, #dados2, #dados3, #dados4{
         margin-top: 10px;
+        padding-right: 20px;
     }
+
     .image{
        height: 100%;
        padding-bottom: 30px;
     }
+
     .menu_pesquisa{
         width:100%;
         justify-content: center;
         align-items: center;
     }
+
     #pesquisa{
         margin-left: 0px;
     }
+
     .header{        
         position: fixed;
         top: 0px;        
@@ -340,6 +350,7 @@ h1,h2, h4,.fab{
         padding: 5px;
         height: 100px;
     }
+
     .header_area {
         display: absolute;
         width: 100%;
@@ -364,6 +375,7 @@ h1,h2, h4,.fab{
         -o-transition: height 0.3s;
         transition: height 0.3s;
     }
+
     .main_area{
         margin-top: 80px;
     }
@@ -386,6 +398,7 @@ h1,h2, h4,.fab{
         color: white;
         z-index: 999;
     }
+
     #menuToggle:checked ~ label i:nth-child(2) {
       display: block;
     }
@@ -398,7 +411,6 @@ h1,h2, h4,.fab{
     #menuToggle:not(:checked) ~ label i:nth-child(2) {
       display: none;
     }
-  
     #menuToggle:checked ~ nav {
         height: 100%; 
     }
